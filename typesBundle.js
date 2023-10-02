@@ -96,6 +96,12 @@
             38
           ],
           "types": {
+	   "RewardDestinationTo257": {
+                "_enum": ["Staked", "Stashed", "Controller"]
+            },
+            "ValidatorPrefs": {
+              "commission": "Compact<Perbill>"
+            },
             "ProposalRecord": {
               "index": "u32",
               "author": "AccountId",

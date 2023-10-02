@@ -162,7 +162,8 @@
             "RefCount": "u32",
             "AccountInfo": "AccountInfoWithRefCount",
             "Address": "IndicesLookupSource",
-            "LookupSource": "IndicesLookupSource"
+            "LookupSource": "IndicesLookupSource",
+	    "Signature": "[u8; 60]"
           }
         },
         {

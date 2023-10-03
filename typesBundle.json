@@ -241,13 +241,6 @@
             46
           ],
           "types": {
-		"types": {
-	    "RewardDestinationTo257": {
-                "_enum": ["Staked", "Stashed", "Controller"]
-            },
-            "ValidatorPrefs": {
-              "commission": "Compact<Perbill>"
-            },
             "Balance2": "u128",
             "ChainId": "u8",
             "DepositNonce": "u64",

@@ -229,6 +229,7 @@
             "voting::TallyType": "TallyType",
             "voting::Tally": "VotingTally",
             "RefCount": "u32",
+	    "OpenTip": "OpenTipTo225",
             "AccountInfo": "AccountInfoWithRefCount",
             "Address": "IndicesLookupSource",
             "LookupSource": "IndicesLookupSource",

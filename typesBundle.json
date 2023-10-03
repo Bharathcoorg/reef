@@ -99,9 +99,6 @@
 	   "RewardDestinationTo257": {
                 "_enum": ["Staked", "Stashed", "Controller"]
             },
-            "ValidatorPrefs": {
-              "commission": "Compact<Perbill>"
-            },
             "ProposalRecord": {
               "index": "u32",
               "author": "AccountId",
@@ -162,8 +159,7 @@
             "RefCount": "u32",
             "AccountInfo": "AccountInfoWithRefCount",
             "Address": "IndicesLookupSource",
-            "LookupSource": "IndicesLookupSource",
-	    "Signature": "[u8; 60]"
+            "LookupSource": "IndicesLookupSource"
           }
         },
         {

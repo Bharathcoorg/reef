@@ -317,8 +317,7 @@
             "ProposalTitle": "Bytes",
             "AccountInfo": "AccountInfoWithRefCount",
             "Address": "MultiAddress",
-            "LookupSource": "MultiAddress",
-	    "Signature": "[u8; 60]"
+            "LookupSource": "MultiAddress"
           }
         },
 		{
